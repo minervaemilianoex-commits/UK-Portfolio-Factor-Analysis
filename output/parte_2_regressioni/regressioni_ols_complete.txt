@@ -1,0 +1,309 @@
+===========================================================================
+XS1
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    XS1   R-squared:                       0.602
+Model:                            OLS   Adj. R-squared:                  0.598
+Method:                 Least Squares   F-statistic:                     135.5
+Date:                Fri, 23 Oct 2026   Prob (F-statistic):           2.27e-70
+Time:                        16:41:53   Log-Likelihood:                 711.38
+No. Observations:                 363   AIC:                            -1413.
+Df Residuals:                     358   BIC:                            -1393.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Alpha          0.0054      0.002      2.835      0.005       0.002       0.009
+MKT            0.6697      0.039     17.118      0.000       0.593       0.747
+SMB            0.8334      0.054     15.567      0.000       0.728       0.939
+HML            0.1042      0.056      1.872      0.062      -0.005       0.214
+UMD            0.0952      0.051      1.878      0.061      -0.005       0.195
+==============================================================================
+Omnibus:                       50.614   Durbin-Watson:                   1.585
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              158.396
+Skew:                           0.605   Prob(JB):                     4.03e-35
+Kurtosis:                       6.002   Cond. No.                         36.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+===========================================================================
+XS2
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    XS2   R-squared:                       0.719
+Model:                            OLS   Adj. R-squared:                  0.716
+Method:                 Least Squares   F-statistic:                     229.5
+Date:                Fri, 23 Oct 2026   Prob (F-statistic):           2.01e-97
+Time:                        16:41:53   Log-Likelihood:                 767.29
+No. Observations:                 363   AIC:                            -1525.
+Df Residuals:                     358   BIC:                            -1505.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Alpha          0.0057      0.002      3.480      0.001       0.002       0.009
+MKT            0.7465      0.034     22.259      0.000       0.681       0.812
+SMB            0.8959      0.046     19.521      0.000       0.806       0.986
+HML            0.0555      0.048      1.163      0.246      -0.038       0.149
+UMD           -0.0297      0.043     -0.684      0.494      -0.115       0.056
+==============================================================================
+Omnibus:                       12.181   Durbin-Watson:                   1.686
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               21.852
+Skew:                           0.162   Prob(JB):                     1.80e-05
+Kurtosis:                       4.158   Cond. No.                         36.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+===========================================================================
+XS3
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    XS3   R-squared:                       0.778
+Model:                            OLS   Adj. R-squared:                  0.776
+Method:                 Least Squares   F-statistic:                     314.5
+Date:                Fri, 23 Oct 2026   Prob (F-statistic):          9.69e-116
+Time:                        16:41:53   Log-Likelihood:                 820.26
+No. Observations:                 363   AIC:                            -1631.
+Df Residuals:                     358   BIC:                            -1611.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Alpha          0.0035      0.001      2.521      0.012       0.001       0.006
+MKT            0.7459      0.029     25.733      0.000       0.689       0.803
+SMB            0.9285      0.040     23.410      0.000       0.851       1.007
+HML            0.0733      0.041      1.778      0.076      -0.008       0.154
+UMD           -0.0024      0.038     -0.064      0.949      -0.076       0.071
+==============================================================================
+Omnibus:                       17.803   Durbin-Watson:                   1.809
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               39.704
+Skew:                          -0.197   Prob(JB):                     2.39e-09
+Kurtosis:                       4.571   Cond. No.                         36.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+===========================================================================
+XS4
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    XS4   R-squared:                       0.830
+Model:                            OLS   Adj. R-squared:                  0.828
+Method:                 Least Squares   F-statistic:                     436.3
+Date:                Fri, 23 Oct 2026   Prob (F-statistic):          3.35e-136
+Time:                        16:41:53   Log-Likelihood:                 856.69
+No. Observations:                 363   AIC:                            -1703.
+Df Residuals:                     358   BIC:                            -1684.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Alpha          0.0024      0.001      1.886      0.060      -0.000       0.005
+MKT            0.8081      0.026     30.822      0.000       0.757       0.860
+SMB            1.0046      0.036     28.000      0.000       0.934       1.075
+HML           -0.1061      0.037     -2.845      0.005      -0.179      -0.033
+UMD            0.0867      0.034      2.551      0.011       0.020       0.154
+==============================================================================
+Omnibus:                       30.858   Durbin-Watson:                   1.708
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              109.037
+Skew:                           0.247   Prob(JB):                     2.10e-24
+Kurtosis:                       5.639   Cond. No.                         36.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+===========================================================================
+XS5
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    XS5   R-squared:                       0.850
+Model:                            OLS   Adj. R-squared:                  0.848
+Method:                 Least Squares   F-statistic:                     505.6
+Date:                Fri, 23 Oct 2026   Prob (F-statistic):          8.06e-146
+Time:                        16:41:53   Log-Likelihood:                 883.00
+No. Observations:                 363   AIC:                            -1756.
+Df Residuals:                     358   BIC:                            -1737.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Alpha          0.0012      0.001      1.007      0.315      -0.001       0.004
+MKT            0.8641      0.024     35.438      0.000       0.816       0.912
+SMB            0.9040      0.033     27.092      0.000       0.838       0.970
+HML            0.0407      0.035      1.174      0.241      -0.028       0.109
+UMD            0.0538      0.032      1.703      0.089      -0.008       0.116
+==============================================================================
+Omnibus:                       28.386   Durbin-Watson:                   1.809
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              110.544
+Skew:                           0.105   Prob(JB):                     9.90e-25
+Kurtosis:                       5.695   Cond. No.                         36.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+===========================================================================
+XS6
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    XS6   R-squared:                       0.888
+Model:                            OLS   Adj. R-squared:                  0.886
+Method:                 Least Squares   F-statistic:                     706.8
+Date:                Fri, 23 Oct 2026   Prob (F-statistic):          1.94e-168
+Time:                        16:41:53   Log-Likelihood:                 937.37
+No. Observations:                 363   AIC:                            -1865.
+Df Residuals:                     358   BIC:                            -1845.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Alpha          0.0018      0.001      1.784      0.075      -0.000       0.004
+MKT            0.8937      0.021     42.574      0.000       0.852       0.935
+SMB            0.8826      0.029     30.722      0.000       0.826       0.939
+HML            0.0205      0.030      0.688      0.492      -0.038       0.079
+UMD            0.0144      0.027      0.530      0.597      -0.039       0.068
+==============================================================================
+Omnibus:                       37.278   Durbin-Watson:                   1.870
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              115.761
+Skew:                          -0.418   Prob(JB):                     7.29e-26
+Kurtosis:                       5.637   Cond. No.                         36.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+===========================================================================
+XS7
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    XS7   R-squared:                       0.907
+Model:                            OLS   Adj. R-squared:                  0.906
+Method:                 Least Squares   F-statistic:                     876.4
+Date:                Fri, 23 Oct 2026   Prob (F-statistic):          1.94e-183
+Time:                        16:41:53   Log-Likelihood:                 973.45
+No. Observations:                 363   AIC:                            -1937.
+Df Residuals:                     358   BIC:                            -1917.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Alpha          0.0010      0.001      1.105      0.270      -0.001       0.003
+MKT            0.9246      0.019     48.648      0.000       0.887       0.962
+SMB            0.8449      0.026     32.485      0.000       0.794       0.896
+HML           -0.0160      0.027     -0.593      0.553      -0.069       0.037
+UMD            0.0087      0.025      0.354      0.723      -0.040       0.057
+==============================================================================
+Omnibus:                       56.023   Durbin-Watson:                   1.914
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              227.420
+Skew:                          -0.587   Prob(JB):                     4.13e-50
+Kurtosis:                       6.696   Cond. No.                         36.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+===========================================================================
+XS8
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    XS8   R-squared:                       0.926
+Model:                            OLS   Adj. R-squared:                  0.925
+Method:                 Least Squares   F-statistic:                     1118.
+Date:                Fri, 23 Oct 2026   Prob (F-statistic):          9.35e-201
+Time:                        16:41:53   Log-Likelihood:                 1014.1
+No. Observations:                 363   AIC:                            -2018.
+Df Residuals:                     358   BIC:                            -1999.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Alpha          0.0005      0.001      0.573      0.567      -0.001       0.002
+MKT            0.9955      0.017     58.589      0.000       0.962       1.029
+SMB            0.7245      0.023     31.161      0.000       0.679       0.770
+HML           -0.0342      0.024     -1.416      0.158      -0.082       0.013
+UMD            0.0456      0.022      2.071      0.039       0.002       0.089
+==============================================================================
+Omnibus:                       18.307   Durbin-Watson:                   1.897
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               35.017
+Skew:                          -0.279   Prob(JB):                     2.49e-08
+Kurtosis:                       4.416   Cond. No.                         36.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+===========================================================================
+XS9
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    XS9   R-squared:                       0.922
+Model:                            OLS   Adj. R-squared:                  0.921
+Method:                 Least Squares   F-statistic:                     1055.
+Date:                Fri, 23 Oct 2026   Prob (F-statistic):          1.21e-196
+Time:                        16:41:53   Log-Likelihood:                 998.94
+No. Observations:                 363   AIC:                            -1988.
+Df Residuals:                     358   BIC:                            -1968.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Alpha          0.0012      0.001      1.360      0.175      -0.001       0.003
+MKT            1.0762      0.018     60.745      0.000       1.041       1.111
+SMB            0.4511      0.024     18.607      0.000       0.403       0.499
+HML           -0.0091      0.025     -0.361      0.718      -0.059       0.040
+UMD           -0.0573      0.023     -2.495      0.013      -0.102      -0.012
+==============================================================================
+Omnibus:                        5.265   Durbin-Watson:                   1.997
+Prob(Omnibus):                  0.072   Jarque-Bera (JB):                6.388
+Skew:                          -0.126   Prob(JB):                       0.0410
+Kurtosis:                       3.599   Cond. No.                         36.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+===========================================================================
+XS10
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   XS10   R-squared:                       0.963
+Model:                            OLS   Adj. R-squared:                  0.962
+Method:                 Least Squares   F-statistic:                     2322.
+Date:                Fri, 23 Oct 2026   Prob (F-statistic):          1.57e-254
+Time:                        16:41:53   Log-Likelihood:                 1204.9
+No. Observations:                 363   AIC:                            -2400.
+Df Residuals:                     358   BIC:                            -2380.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Alpha      -1.803e-05      0.000     -0.037      0.970      -0.001       0.001
+MKT            0.9551      0.010     95.086      0.000       0.935       0.975
+SMB           -0.1500      0.014    -10.914      0.000      -0.177      -0.123
+HML           -0.0081      0.014     -0.564      0.573      -0.036       0.020
+UMD            0.0466      0.013      3.582      0.000       0.021       0.072
+==============================================================================
+Omnibus:                        5.290   Durbin-Watson:                   1.933
+Prob(Omnibus):                  0.071   Jarque-Bera (JB):                5.868
+Skew:                           0.170   Prob(JB):                       0.0532
+Kurtosis:                       3.521   Cond. No.                         36.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
